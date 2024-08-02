@@ -15,6 +15,15 @@
     height: 25%;     
 }
 
+.card{
+    padding: 13px;
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
 .testimony{
     text-align: justify;
     text-justify: distribute;  
@@ -181,18 +190,19 @@
 
     .nav-link {
         text-transform: uppercase;
-        margin-right: 20px;
+        margin-right: 20px;        
     }
 
     .nav-link:hover::after,
     .nav-link.active::after {
         content: '';
         display: block;
-        border-bottom: 3px solid #0B63DC;
+        border-bottom: 3px solid #c0bebe;
         margin: auto;
         margin-bottom: -8px;
         width: 50%;
         padding-top: 5px;
+        border-radius: 1.5%;
     }
 
 
