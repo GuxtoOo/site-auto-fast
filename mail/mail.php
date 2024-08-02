@@ -30,7 +30,7 @@ try
     // Define o remetente
     $mail->setFrom('agmano22@gmail.com', 'Ford Cimavel');
     // Define o destinatário
-    $mail->addAddress('augustomanoel527@gmail.com', 'Nome Destinatario');
+    $mail->addAddress('augustomanoel527@gmail.com', 'Alfama Web');
     // Conteúdo da mensagem
     $mail->isHTML(true);  // Seta o formato do e-mail para aceitar conteúdo HTML
     $mail->Subject = 'Teste Envio de Email';
